@@ -5,7 +5,17 @@
 </template>
 
 <script setup>
-const post = ref({});
+const post = ref({
+  title: "Hello World",
+  description: "Hello World description",
+  keywords: "hello, world",
+  ogImage: "/og.jpeg",
+  ogUrl: "https://opengragh.netlify.app/",
+  ogType: "article",
+  twitterCard: "summary_large_image",
+  twitterSite: "@example",
+  twitterCreator: "@example",
+});
 useSeoMeta({
   title: () => post.value?.title,
   description: () => post.value?.description,
@@ -16,22 +26,6 @@ useSeoMeta({
   twitterCard: () => post.value?.twitterCard,
   twitterSite: () => post.value?.twitterSite,
   twitterCreator: () => post.value?.twitterCreator,
-});
-
-onMounted(() => {
-  setTimeout(() => {
-    post.value = {
-      title: "Hello World",
-      description: "Hello World description",
-      keywords: "hello, world",
-      ogImage: "/og.jpeg",
-      ogUrl: "https://opengragh.netlify.app/",
-      ogType: "article",
-      twitterCard: "summary_large_image",
-      twitterSite: "@example",
-      twitterCreator: "@example",
-    };
-  }, 100);
 });
 </script>
 
