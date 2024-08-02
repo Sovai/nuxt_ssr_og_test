@@ -5,16 +5,33 @@
 </template>
 
 <script setup>
+const post = ref({});
 useSeoMeta({
-  title: "App",
-  description: "App description",
-  keywords: "app, vue, vue3, vite",
-  ogImage: "/og.jpeg",
-  ogUrl: "https://example.com",
-  ogType: "https://opengragh.netlify.app/",
-  twitterCard: "summary_large_image",
-  twitterSite: "@example",
-  twitterCreator: "@example",
+  title: () => post.value?.title,
+  description: () => post.value?.description,
+  keywords: () => post.value?.keywords,
+  ogImage: () => post.value?.ogImage,
+  ogUrl: () => post.value?.ogUrl,
+  ogType: () => post.value?.ogType,
+  twitterCard: () => post.value?.twitterCard,
+  twitterSite: () => post.value?.twitterSite,
+  twitterCreator: () => post.value?.twitterCreator,
+});
+
+onMounted(() => {
+  setTimeout(() => {
+    post.value = {
+      title: "Hello World",
+      description: "Hello World description",
+      keywords: "hello, world",
+      ogImage: "/og.jpeg",
+      ogUrl: "https://opengragh.netlify.app/",
+      ogType: "article",
+      twitterCard: "summary_large_image",
+      twitterSite: "@example",
+      twitterCreator: "@example",
+    };
+  }, 2000);
 });
 </script>
 
