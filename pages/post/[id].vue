@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>App</h1>
+    <h1>ID</h1>
   </div>
 </template>
 
@@ -31,7 +31,7 @@ onMounted(() => {
       twitterSite: "@example",
       twitterCreator: "@example",
     };
-  }, 2000);
+  }, 100);
 });
 </script>
 

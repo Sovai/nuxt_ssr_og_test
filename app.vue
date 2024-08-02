@@ -31,7 +31,7 @@ onMounted(() => {
       twitterSite: "@example",
       twitterCreator: "@example",
     };
-  }, 2000);
+  }, 100);
 });
 </script>
 
