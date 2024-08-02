@@ -10,7 +10,7 @@ useSeoMeta({
   title: () => post.value?.title,
   description: () => post.value?.description,
   keywords: () => post.value?.keywords,
-  ogImage: () => post.value?.ogImage,
+  ogImageUrl: () => post.value?.ogImage,
   ogUrl: () => post.value?.ogUrl,
   ogType: () => post.value?.ogType,
   twitterCard: () => post.value?.twitterCard,
