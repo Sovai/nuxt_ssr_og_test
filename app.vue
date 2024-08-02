@@ -9,8 +9,7 @@ useSeoMeta({
   title: "App",
   description: "App description",
   keywords: "app, vue, vue3, vite",
-  ogImage:
-    "https://news.pts.org.tw/live/newslab/uploads/5d56a3321fbd6_ddd1bab37e.jpg",
+  ogImage: "/og.jpeg",
   ogUrl: "https://example.com",
   ogType: "https://opengragh.netlify.app/",
   twitterCard: "summary_large_image",
