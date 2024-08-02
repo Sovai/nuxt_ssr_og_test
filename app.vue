@@ -12,10 +12,7 @@ useSeoMeta({
   ogImage:
     "https://news.pts.org.tw/live/newslab/uploads/5d56a3321fbd6_ddd1bab37e.jpg",
   ogUrl: "https://example.com",
-  ogType: () => {
-    // get current url
-    return window.location.href || "https://opengragh.netlify.app/";
-  },
+  ogType: "https://opengragh.netlify.app/",
   twitterCard: "summary_large_image",
   twitterSite: "@example",
   twitterCreator: "@example",
