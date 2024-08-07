@@ -10,7 +10,7 @@ const post = ref({
   description: "Hello World description",
   keywords: "hello, world",
   ogImage: "/og-2.jpg",
-  ogUrl: "https://opengragh.netlify.app/",
+  ogUrl: "https://opengragh.netlify.app/post/13",
   ogType: "article",
   twitterCard: "summary_large_image",
   twitterSite: "@example",
