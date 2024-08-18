@@ -236,7 +236,7 @@
                       height="314"
                       width="100%"
                       class="mx-auto video-landscape"
-                      paddingtop="56.07142857142857%"
+                      scrolling="no"
                     ></iframe>
                   </div>
                   <p>test123</p>
@@ -251,7 +251,7 @@
                       height="476"
                       width="267"
                       class="mx-auto video-portrait"
-                      paddingtop="178.27715355805242%"
+                      scrolling="no"
                     ></iframe>
                   </div>
                 </div>
