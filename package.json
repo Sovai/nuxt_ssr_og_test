@@ -10,6 +10,7 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@nuxtjs/tailwindcss": "^6.12.1",
     "@supabase/supabase-js": "^2.44.4",
     "nuxt": "^3.12.3",
     "nuxt-svgo": "^4.0.1",
