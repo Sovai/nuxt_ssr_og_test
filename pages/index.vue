@@ -103,7 +103,7 @@ useSeoMeta({
 });
 </script>
 
-<style lang="scss" scoped>
+<style scoped>
 .iframe-wrapper {
   position: relative;
   width: 100%;
