@@ -108,6 +108,7 @@ useSeoMeta({
   position: relative;
   width: 100%;
   overflow: hidden;
+  touch-action: none;
 }
 
 .iframe-wrapper iframe {
