@@ -918,7 +918,11 @@ useSeoMeta({
 });
 </script>
 
-<style scoped>
+<style>
+:root {
+  overscroll-behavior: none;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -1017,5 +1021,6 @@ useSeoMeta({
   left: 0;
   width: 100%;
   height: 100%;
+  overscroll-behavior: none;
 }
 </style>
