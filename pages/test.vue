@@ -234,7 +234,7 @@
                       frameborder="0"
                       allowfullscreen="true"
                       height="314"
-                      width="100%"
+                      width="560"
                       class="mx-auto video-landscape"
                       scrolling="no"
                     ></iframe>
@@ -251,7 +251,6 @@
                       height="476"
                       width="267"
                       class="mx-auto video-portrait"
-                      scrolling="no"
                     ></iframe>
                   </div>
                 </div>
